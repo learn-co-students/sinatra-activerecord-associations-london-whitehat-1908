@@ -15,7 +15,7 @@ Previously, we learned about foreign and primary keys in SQL and how they relate
 The end goal of this readme is to create a relationship in our app that mimics the real life cat-owner relationship: owners can **have many** cats and cats **belong to** an owner. Let's assume we have two tables in our database: `cats` and `owners`, which we created from the command line using rake.
 
 #### Review: Creating a table with ActiveRecord
-
+ 
 First, we create a cats table from the command line:
 `rake db:create_migration NAME="create_cats"`
 
